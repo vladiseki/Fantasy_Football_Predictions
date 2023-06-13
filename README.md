@@ -62,7 +62,9 @@ The closer the RMSE is to 0 the better it'll be for our predictions. In order to
 In conjuction, I'll be developing a Streamlit demo application, so that someone can just pick a player and see what the model is predicting for next week. Is the machine better than the average joe? Stay tuned to find out!
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/vladiseki/NFL_Capstone/blob/main/Fantasy_Football_Capstone.ipynb)
+See the data scraping code in the [Web Scrape Notebook](https://github.com/vladiseki/NFL_Capstone/blob/main/Web_Scraping_Players_Data.ipynb)
+
+See the full analysis in the [Data Analysis Notebook](https://github.com/vladiseki/NFL_Capstone/blob/main/Fantasy_Football_Capstone.ipynb)
 
 or review this [Presentation]
 
@@ -70,7 +72,9 @@ or review this [Presentation]
 ```
 ├── images
 ├── Fantasy_Football_Capstone.ipynb
-├── Proof_of_concept.ipynb
 ├── LICENSE
+├── Proof_of_concept.ipynb
 ├── README.md
+├── Web_Scraping_Players_Data.ipynb
+├── offense_nfl_2022.csv
 ```
