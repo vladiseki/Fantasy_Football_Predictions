@@ -66,7 +66,7 @@ See the data scraping code in the [Web Scrape Notebook](https://github.com/vladi
 
 See the full analysis in the [Data Analysis Notebook](https://github.com/vladiseki/NFL_Capstone/blob/main/Fantasy_Football_Capstone.ipynb)
 
-or review this [Presentation]
+or review this [Presentation](https://github.com/vladiseki/NFL_Capstone/blob/main/Fantasy%20Football%20-%20Capstone%20Project%20Presentation.pdf)
 
 ## Repository Structure
 ```
