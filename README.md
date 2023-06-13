@@ -6,6 +6,8 @@
 
 For this project, we compare the Root Mean Square Error ("RMSE")of the same dataset with varying degrees of features. The difference in features will be explained in the 'Data' section. The RMSE compared was between a dummy, linear regression, ridge, lasso, and random forest model.
 
+This project was originally inspired by [Ben Dominguez](https://www.opensourcefootball.com/posts/2021-01-21-nfl-game-prediction-using-logistic-regression/) project which models NFL game outcomes. I was going to try using the same library 'nflfastpy', but it seems that it's been altered in the past two years and would not work the way it was outlined in his paper.
+
 ## Business Problem
 The fantasy football industry is worth billions of dollars. Being able to pick players that produce more points is incredibly valuable. With that in mind we want to be able to take a player's first half of the season and predict their fantasy point total for the second half. Additionally, is more information better and what are the most important coefficients? We provide these answers to fantasy sports edgeseekers.
 
@@ -38,13 +40,13 @@ The ridge model with the test set then achieved a RMSE of 31.49. It's important 
 
 
 ## Top 5 Predictive Features - Positive Coefficients
-Image showing coefficients bar
+![Final Ridge Model - Top 5 Positive Coefficients](./images/Top5_Coeff.png)
 
 ## Second Half of the Season - Fantasy Points Actual vs Predicted
-Image showing scatter plot
+![Final Ridge Model - Actual vs Predicted Fantasy Points](./images/actual_vs_pred.png)
 
 ## Second Half of the Season - Histogram of predicted errors
-Image of histogram
+![Final Ridge Model - Histogram of Predicted Errors](./images/hist_pred_err.png)
 
 
 ## Conclusion
@@ -60,15 +62,15 @@ The closer the RMSE is to 0 the better it'll be for our predictions. In order to
 In conjuction, I'll be developing a Streamlit demo application, so that someone can just pick a player and see what the model is predicting for next week. Is the machine better than the average joe? Stay tuned to find out!
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook]
+See the full analysis in the [Jupyter Notebook](https://github.com/vladiseki/NFL_Capstone/blob/main/Fantasy_Football_Capstone.ipynb)
 
 or review this [Presentation]
 
 ## Repository Structure
 ```
-├── LoL_Result_Predictions_Final.ipynb
-├── 2022_LoL_esports_match_data_2022_07_25.csv
 ├── images
+├── Fantasy_Football_Capstone.ipynb
+├── Proof_of_concept.ipynb
+├── LICENSE
 ├── README.md
-├── League of Legends Result Prediction - Phase 3 Project.pdf
 ```
