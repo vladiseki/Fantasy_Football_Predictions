@@ -6,6 +6,8 @@
 
 For this project, we compare the Root Mean Square Error ("RMSE")of the same dataset with varying degrees of features. The difference in features will be explained in the 'Data' section. The RMSE compared was between a dummy, linear regression, ridge, lasso, and random forest model.
 
+For reproducability the environment is in the main folder as 'project_environment.yml'.
+
 This project was originally inspired by [Ben Dominguez](https://www.opensourcefootball.com/posts/2021-01-21-nfl-game-prediction-using-logistic-regression/) project which models NFL game outcomes. I was going to try using the same library 'nflfastpy', but it seems that it's been altered in the past two years and would not work the way it was outlined in his paper.
 
 ## Business Problem
@@ -78,4 +80,5 @@ or review this [Presentation](https://github.com/vladiseki/NFL_Capstone/blob/mai
 ├── README.md
 ├── Web_Scraping_Players_Data.ipynb
 ├── offense_nfl_2022.csv
+├── project_environment.yml
 ```
