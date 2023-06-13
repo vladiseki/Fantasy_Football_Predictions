@@ -71,6 +71,7 @@ or review this [Presentation](https://github.com/vladiseki/NFL_Capstone/blob/mai
 ## Repository Structure
 ```
 ├── images
+├── Fantasy Football - Capstone Project Presentation.pdf
 ├── Fantasy_Football_Capstone.ipynb
 ├── LICENSE
 ├── Proof_of_concept.ipynb
